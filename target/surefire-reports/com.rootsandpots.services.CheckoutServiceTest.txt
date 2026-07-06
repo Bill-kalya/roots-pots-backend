@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.rootsandpots.services.CheckoutServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.30 s -- in com.rootsandpots.services.CheckoutServiceTest

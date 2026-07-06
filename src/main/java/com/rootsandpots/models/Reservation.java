@@ -30,11 +30,20 @@ public class Reservation {
     @Column(name = "customer_phone")
     private String customerPhone;
 
+    @Column(name = "customer_email")
+    private String customerEmail;
+
     @Column(name = "reservation_date", nullable = false)
     private LocalDate reservationDate;
 
     @Column(name = "reservation_time", nullable = false)
     private LocalTime reservationTime;
+
+    @Column(name = "guest_count")
+    private Integer guests = 2;
+
+    @Column(name = "special_request")
+    private String specialRequests;
 
     private String status;
 
